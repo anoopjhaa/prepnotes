@@ -1,0 +1,22 @@
+{
+  "name": "prepnotes",
+  "version": "1.0.0",
+  "description": "it is note taking app to remember different approaches for various coding questions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "note-taking"
+  ],
+  "author": "Anoop kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
